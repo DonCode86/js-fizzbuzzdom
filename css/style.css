@@ -6,6 +6,8 @@
 
 body {
     background-color: #083b4c;
+    font-family: 'Roboto',
+    sans-serif;
 }
 
 .doc-title {
@@ -14,8 +16,6 @@ body {
     color: #fff;
     font-size: 40px;
     font-weight: 800;
-    font-family: 'Roboto',
-    sans-serif;
 }
 
 .container {
@@ -36,7 +36,9 @@ body {
     text-align: center;
     line-height: 76px;
     font-size: 24px;
-    border: 12px solid #083b4c;;
+    border: 12px solid #083b4c;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .item-fizz-active {
