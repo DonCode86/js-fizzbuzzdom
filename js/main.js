@@ -1,7 +1,8 @@
+const max_n = 100;
 const list = document.querySelector(".list");
 const container = document.querySelector("container");
 //stampa in console numeri da 1 a 100
-for( let i = 1; i <= 100; i++ ) {
+for( let i = 1; i <= max_n; i++ ) {
     const element = document.createElement("li");
     element.classList.add("item");
     list.append(element);
