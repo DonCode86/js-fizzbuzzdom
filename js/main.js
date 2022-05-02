@@ -4,7 +4,6 @@ var element = document.getElementsByClassName("container");
 for( let i = 1; i <= 100; i++ ) {
     const element = document.createElement("li");
     element.classList.add("item");
-    // element.innerText = i;
     list.append(element);
 
     if ((i % 5) == 0 && (i % 3) == 0) {
