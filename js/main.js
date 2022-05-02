@@ -7,17 +7,17 @@ for( let i = 1; i <= max_n; i++ ) {
     element.classList.add("item");
     list.append(element);
 
-    if ((i % 5) == 0 && (i % 3) == 0) {
+    if ((i % 5) === 0 && (i % 3) == 0) {
         element.classList.add("item-fizzbuzz-active");
         element.innerHTML += "fizzbuzz";
         console.log("fizzbuzz");
     }
-    else if ((i % 3) == 0) {
+    else if ((i % 3) === 0) {
         element.classList.add("item-fizz-active");
         element.innerHTML += "fizz";
         console.log("fizz");
     }
-    else if ((i % 5) == 0) {
+    else if ((i % 5) === 0) {
         element.classList.add("item-buzz-active");
         element.innerHTML += "buzz";
         console.log("buzz");
