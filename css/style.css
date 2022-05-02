@@ -14,6 +14,12 @@
     margin: auto;
 }
 
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
 .item {
     width: 100px;
     height: 100px;
@@ -25,6 +31,6 @@
     border: 2px solid #fff;
 }
 
-.item-active {
+.item-three-active {
     background-color: red;
 }
