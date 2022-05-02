@@ -8,13 +8,15 @@ for( let i = 1; i <= 100; i++ ) {
     list.append(element);
 
     if ((i % 5) == 0 && (i % 3) == 0) {
+        element.classList.add("item-fizzbuzz-active");
         console.log("fizzbuzz");
     }
     else if ((i % 3) == 0) {
-        element.classList.add("item-three-active");
+        element.classList.add("item-fizz-active");
         console.log("fizz");
     }
     else if ((i % 5) == 0) {
+        element.classList.add("item-buzz-active");
         console.log("buzz");
     }
     else console.log(i)

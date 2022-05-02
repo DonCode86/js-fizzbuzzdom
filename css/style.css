@@ -4,9 +4,14 @@
     padding: 0;
 }
 
+body {
+    background-color: #083b4c;
+}
+
 .doc-title {
     text-align: center;
     margin: 30px;
+    color: #fff;
 }
 
 .container {
@@ -23,14 +28,21 @@
 .item {
     width: 100px;
     height: 100px;
-    background-color: green;
-    color: #fff;
+    background-color: #1389b2;
     text-align: center;
-    line-height: 100px;
+    line-height: 76px;
     font-size: 24px;
-    border: 2px solid #fff;
+    border: 12px solid #083b4c;;
 }
 
-.item-three-active {
-    background-color: red;
+.item-fizz-active {
+    background-color: #0bd6a1;
+}
+
+.item-buzz-active {
+    background-color: #ffd166;
+}
+
+.item-fizzbuzz-active {
+    background-color: #f0466f;
 }
