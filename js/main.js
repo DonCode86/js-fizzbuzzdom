@@ -1,5 +1,5 @@
 const list = document.querySelector(".list");
-var element = document.getElementsByClassName("container");
+const container = document.querySelector("container");
 //stampa in console numeri da 1 a 100
 for( let i = 1; i <= 100; i++ ) {
     const element = document.createElement("li");
