@@ -4,21 +4,27 @@ var element = document.getElementsByClassName("container");
 for( let i = 1; i <= 100; i++ ) {
     const element = document.createElement("li");
     element.classList.add("item");
-    element.innerText = i;
+    // element.innerText = i;
     list.append(element);
 
     if ((i % 5) == 0 && (i % 3) == 0) {
         element.classList.add("item-fizzbuzz-active");
+        element.innerHTML += "fizzbuzz";
         console.log("fizzbuzz");
     }
     else if ((i % 3) == 0) {
         element.classList.add("item-fizz-active");
+        element.innerHTML += "fizz";
         console.log("fizz");
     }
     else if ((i % 5) == 0) {
         element.classList.add("item-buzz-active");
+        element.innerHTML += "buzz";
         console.log("buzz");
     }
-    else console.log(i)
+    else {
+        console.log(i)
+        element.innerText = i;
+    }
 }
 
